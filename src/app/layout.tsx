@@ -66,6 +66,13 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://hakobyai.com",
   },
+  icons: {
+    icon: [
+      { url: "/favicon.ico", sizes: "48x48" },
+      { url: "/icon.svg", type: "image/svg+xml" },
+    ],
+    apple: "/icon.svg",
+  },
 };
 
 const jsonLd = {
